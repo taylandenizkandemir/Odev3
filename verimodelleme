@@ -1,0 +1,16 @@
+Veri modelleme:
+Veri modelleme temel olarak iş süreçlerinin gerçekleştirilmesi için üretilen yazılımların kullandıkları ya da bu yazılımların kullanılması ile üretilen verilerin biriktirilmesi ve yönetilmesinin planlanması ve kodlanmasıdır. Tabi bu modelleme süreci Yazılım tasarımı ile birlikte yürütülmesi gereken bir süreçtir. Çünkü temel olarak verinin Normlara uygun modellenmesi her ne kadar önemli ise de bildiğiniz üzere gerçek hayatta her şey kitaplardaki pürüzsüz hatasız olmuyor.
+Ve fakat ilişkisel Veri tabanlarında Normalizasyon olmazsa olmaz bir zorunluluktur. Veri tabanlarında tutulan veriler kalıcı olmadıklarından sürekli güncellenmekte, değişmekte ve yeni veriler eklenmektedir. Bu durumlarda veri tabanının tutarlığını korumanın yolu Normalizasyondur.  Eğer Normalizasyon uygulanmamışsa veri tabanı kıssa süre içerisinde çözülemez bir yumağa dönüşebilirdir. Veri tabanında veri kaybı söz konusu olabilir.
+
+Primary Key:
+Her tablonun kendine ait primary key’i vardır.  Örnek verecek olursak Ogrenciler tablosundaki ogrenciId bu tablonun primary key değeridir.
+
+
+Foreign 	Key:
+Yabancı ikincil anahtar olarak bilinir. Ogrenciler tablosundaki ogrenciId primary key iken ogrencıler tablosundaki dersId foreign key olarak kabul edilir. Join yapmamızı sağlayan yan kolondur.
+
+
+E R diyagramı nedir?
+ER Diyagramı Varlık İlişkisi Diyagramı anlamına gelir ve ERD olarak da bilinir,
+bir veritabanında depolanan varlık kümelerinin ilişkisini gösteren bir diyagramdır.
+Başka bir deyişle, ER diyagramları veritabanlarının mantıksal yapısını açıklamaya yardımcı olur.
